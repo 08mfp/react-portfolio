@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Company Management Database:",
+    "imageSrc": "projects/db.png",
+    "description": "Developed a company database website using SQL, PHP, HTML, and CSS to track employee records, product inventories, orders, delivery logistics, customer data, department structures, and ex-employee data",
+    "skills": ["PHP", "HTML", "CSS", "SQL", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Movie Recommendation Website:",
+    "imageSrc": "projects/movie.png",
+    "description": "Developed a movie recommendation website using react that suggested a list of movies for users to watch based on their preferences & interests.",
+    "skills": ["JavaScript", "HTML", "CSS", "React.js"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Events & Venue Management Website:",
+    "imageSrc": "projects/events.png",
+    "description": "Events & Venue Management Website, similar to EventBrite. Includes interactive maps, event scheduling, and a discussion board.",
+    "skills": ["Java", "Spring MVC", "HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Rent Tracking Program:",
+    "imageSrc": "projects/db2.png",
+    "description": "Developed a tenant & rent tracking software for a real estate company, providing a tool to manage and organise tenant information, lease durations, and revenue records",
+    "skills": ["SQL", "MySQL", "Microsoft Access", "Databases"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }, {
+    "title": "Messaging Program:",
+    "imageSrc": "projects/messages.png",
+    "description": "Created a Python-based program to implement the messaging protocol, allowing users to send and receive messages seamlessly.",
+    "skills": ["PHP", "Python"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Wedding Reservation Management:",
+    "imageSrc": "projects/wedding.png",
+    "description": "Developed a Python program to coordinate wedding venue and band bookings, using API data to compare and book the earliest available time slots.",
+    "skills": ["Python", "JSON", "HTTP", "APIs"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "This Portfolio Website:",
+    "imageSrc": "projects/port.png",
+    "description": "I created this portfoilio website to give you a quick summary of me and my work.",
+    "skills": ["TypeScript", "React.js", "CSS", "HTML", "Node.js"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Currenly Working on this Project:",
+    "imageSrc": "projects/working.png",
+    "description": "Under Development.",
+    "skills": ["Under Development", "Under Development", "Under Development", "Under Development", "Under Development", "Under Development"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

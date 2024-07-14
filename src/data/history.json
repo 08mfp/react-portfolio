@@ -1,0 +1,40 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "The Times",
+    "startDate": "July, 2024",
+    "endDate": "August, 2024",
+    "experiences": ["Part of the Google Developer Group Mentorship Program", 
+    "2 Month Summer Internship", 
+    "Working as a Front-End Developer, using React & Typescript"
+    ],
+    "imageSrc": "history/theTimes.png"
+  },
+  {
+    "role": "AI Engineer",
+    "organisation": "Manchester Stinger Motorsports",
+    "startDate": "October, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Competing in the Annual Formula Student Competition",
+      "Researching path planning and optimization, using computer vision and machine learning", 
+      "Using cameras to allow the race car to create and follow racing lines based on real-time input"
+      ],
+    "imageSrc": "history/mcr2.png"
+  },
+  {
+    "role": "Hackathon Organiser",
+    "organisation": "UniCS Mcr",
+    "startDate": "June, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Working as part of the logistics team for GreatUniHack 2024, a 24-hour hackathon with 250 participants",
+      "Handling Logistical Planning, Prize Sourcing, Catering and Budget Management.",
+      {
+        "description": "Check out the GreatUniHack Website Here",
+        "url": "https://greatunihack.com"
+      }
+    ],
+    "imageSrc": "history/unics.png"
+  }
+]

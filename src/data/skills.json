@@ -1,0 +1,62 @@
+[
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/ts.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.svg"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.svg"
+  },
+  {
+    "title": "APIs",
+    "imageSrc": "skills/api.png"
+  },
+  {
+    "title": "PHPMyAdmin",
+    "imageSrc": "skills/phpm.png"
+  },
+  {
+    "title": "Agile",
+    "imageSrc": "skills/agile.png"
+  },
+  {
+    "title": "Code Review",
+    "imageSrc": "skills/code.png"
+  },
+  {
+    "title": "Databases",
+    "imageSrc": "skills/db.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.png"
+  }
+]
