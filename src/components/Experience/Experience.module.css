@@ -25,7 +25,7 @@
 .skills {
   width: 45%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr); 
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px; 
 }
 
@@ -45,32 +45,16 @@
   width: 120px;
   height: 120px;
   border: 2px solid white; 
-  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease; 
 }
 
 .skillImageContainer img {
   width: 75px;
-  transition: transform 0.3s ease; 
-}
-
-.skillImageContainer:hover {
-  background-color: red; 
-  transform: scale(1.1); 
 }
 
 .skill p {
   font-size: 25px;
   font-family: var(--font-roboto);
   font-weight: 500;
-  transition: font-size 0.3s ease; 
-}
-
-.skillImageContainer:hover img {
-  transform: scale(1.1); 
-}
-
-.skillImageContainer:hover + p {
-  font-size: 30px; 
 }
 
 .history {
@@ -90,12 +74,6 @@
   border-radius: 10px;
   padding: 24px;
   border: 2px solid white; 
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
-}
-
-.historyItem:hover {
-  transform: scale(1.05); 
-  background: linear-gradient(90deg, #162c57 0%, rgba(25, 55, 109, 0) 100%); 
 }
 
 .link {
@@ -137,7 +115,7 @@
 
   .skills {
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
     justify-content: center;
   }
 

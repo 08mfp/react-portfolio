@@ -16,10 +16,10 @@
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
 }
 
-.container:hover {
+/* .container:hover {
   transform: scale(1.05); 
   background: linear-gradient(180deg, #4a5ca1 0%, #0f223e 100%); 
-}
+} */
 
 .image {
   margin-bottom: 26px;
