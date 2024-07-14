@@ -16,7 +16,7 @@ export const Hero = () => {
         If you have any questions, or would like to reach out, you can use the button below.
         </p>
         <div style={{ display: 'flex' }}>
-        <a href="mailto:email.mohfarid@icloud.com" className={styles.contactBtn} style={{ marginRight: '10px' }}>
+        <a href="mailto:contact@mohfarid.com" className={styles.contactBtn} style={{ marginRight: '10px' }}>
           Email Me
         </a>
         <a href="https://www.linkedin.com/in/mohamedfaridpatel" className={styles.contactBtn}>
