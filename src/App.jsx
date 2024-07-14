@@ -6,6 +6,7 @@ import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Analytics/>
+      <SpeedInsights/>
     </div>
     
   );
