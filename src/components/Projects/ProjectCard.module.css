@@ -3,26 +3,54 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Distribute space evenly */
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  padding: 21px 27px; /* Adjusted padding */
+  width: 345px; /* Set a fixed width */
+  min-height: 500px; /* Set a minimum height */
+  border: 3px solid white; /* Added white border */
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  overflow: hidden; /* Prevent content overflow */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.container:hover {
+  transform: scale(1.05); /* Enlarge the project card on hover */
+  background: linear-gradient(180deg, #4a5ca1 0%, #0f223e 100%); /* Darker blue background on hover */
 }
 
 .image {
   margin-bottom: 26px;
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  width: 100%; /* Ensure the image fits the container's width */
+  max-height: 200px; /* Set a fixed height for the images */
+  border: 3px solid white; /* Add a white border around the image */
+  box-sizing: border-box; /* Include border in the element's total width and height */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.image img {
+  width: 100%; /* Make sure the image scales properly */
+  height: 100%; /* Maintain uniform height */
+  object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+  border-radius: 7px; /* Match the border radius to prevent overflow outside the border */
 }
 
 .title {
   font-size: 25px;
   font-weight: 700;
+  flex-shrink: 0; /* Prevent the title from shrinking */
 }
 
 .description {
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  flex-grow: 1; /* Allow the description to take available space */
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
 }
 
 .skills {
@@ -33,6 +61,7 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  flex-shrink: 0; /* Prevent the skills section from shrinking */
 }
 
 .skill {
@@ -41,6 +70,13 @@
   border-radius: 100px;
   background: var(--color-dark);
   padding: 2px 22px;
+  border: 2px solid white; /* Add a white border around each skill */
+  box-sizing: border-box; /* Include border in the element's total width and height */
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.skill:hover {
+  background-color: red; /* Use a lighter color directly */
 }
 
 .links {
@@ -48,6 +84,7 @@
   margin-top: 26px;
   display: flex;
   justify-content: space-around;
+  flex-shrink: 0; /* Prevent the links section from shrinking */
 }
 
 .link {
@@ -58,4 +95,11 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+  border: 2px solid white; /* Add a white border around each link */
+  box-sizing: border-box; /* Include border in the element's total width and height */
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.link:hover {
+  background-color: red; /* Use a darker color directly */
 }

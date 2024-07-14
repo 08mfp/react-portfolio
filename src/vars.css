@@ -1,10 +1,10 @@
 :root {
   /* Colours */
   --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
+  --color-primary: #08942b; /* other button colours*/
+  --color-secondary: #19376d;  /*skills button colours*/
+  --color-dark: #0b2447;  /*lanugahes button colours*/
+  --color-bg: #04152d; /* wesbite button colours*/
 
   /* Fonts */
   --font-roboto: "Roboto";
