@@ -13,15 +13,16 @@ export const Hero = () => {
         I have worked on multiple projects, ranging from web development to machine learning, which you can read more about below.
         <br />
         <br />
+        {/* If you have any questions, or would like to reach out, you can find my contact details at the bottom of this page. */}
         If you have any questions, or would like to reach out, you can use the button below.
         </p>
         <div style={{ display: 'flex' }}>
         <a href="mailto:contact@mohfarid.com" className={styles.contactBtn} style={{ marginRight: '10px' }}>
           Email Me
         </a>
-        <a href="https://www.linkedin.com/in/mohamedfaridpatel" className={styles.contactBtn}>
+        {/* <a href="https://www.linkedin.com/in/mohamedfaridpatel" className={styles.contactBtn}>
           My LinkedIn
-        </a>
+        </a> */}
       </div>
       </div>
       <img
