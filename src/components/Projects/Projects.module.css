@@ -13,10 +13,66 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
+
 .projects {
   margin-top: 37px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 20px; 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   width: 100%;
+}
+
+.disclaimer {
+  display: none;
+  font-size: 14px;
+  color: var(--color-text);
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*  between 831px and 1200px */
+@media screen and (min-width: 831px) and (max-width: 1200px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*  smaller than 830px */
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .disclaimer {
+    display: block;
+  }
+}
+
+/*  smaller phones */
+@media screen and (max-width: 429px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .disclaimer {
+    display: block;
+  }
 }
