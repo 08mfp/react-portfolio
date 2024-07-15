@@ -24,10 +24,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .aboutImage {
   width: 35%;
+  margin-right: 50px;
 }
 
 .aboutItems {
@@ -35,6 +37,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  flex: 1;
 }
 
 .aboutItem {
@@ -56,6 +59,12 @@
 
 .aboutItem:hover {
   background-size: 100% 100%;
+}
+
+.aboutItem img {
+  width: 175px;
+  height: auto;
+  margin-right: 20px;
 }
 
 .aboutItem h3 {
@@ -90,18 +99,29 @@
 
   .content {
     flex-direction: column;
+    align-items: center;
   }
 
   .aboutImage {
-    width: 30%;
+    width: 50%;
+    margin-right: 0;
   }
 
   .aboutItems {
     margin-top: 30px;
+    align-items: center;
   }
 
   .aboutItem {
     padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutItem img {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .aboutItem h3, .aboutItem p {
@@ -109,7 +129,7 @@
   }
 }
 
-/*  smaller than 830px */
+/* smaller than 830px */
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
@@ -121,52 +141,39 @@
 
   .title {
     font-size: 28px;
+    text-align: center;
   }
 
   .content {
     flex-direction: column;
+    align-items: center;
   }
 
   .aboutImage {
-    display: none;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-right: 0;
   }
 
   .aboutItems {
     margin-top: 20px;
+    align-items: center;
   }
 
   .aboutItem {
     padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutItem img {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .aboutItem h3, .aboutItem p {
     font-size: 20px;
-  }
-}
-
-/*  iPhone Pro Max */
-@media screen and (min-width: 430px) and (max-width: 830px) {
-  .container {
-    padding: 40px;
-    margin-top: 75px;
-    margin-left: 7%;
-    margin-right: 7%;
-  }
-
-  .title {
-    font-size: 30px;
-  }
-
-  .aboutImage {
-    width: 25%;
-  }
-
-  .aboutItem {
-    padding: 20px;
-  }
-
-  .aboutItem h3, .aboutItem p {
-    font-size: 22px;
   }
 }
 
@@ -181,14 +188,14 @@
 
   .title {
     font-size: 24px;
-  }
-
-  .aboutImage {
-    width: 20%;
+    text-align: center;
   }
 
   .aboutItem {
     padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .aboutItem h3 {
@@ -196,20 +203,20 @@
   }
 
   .aboutItem p {
-    font-size: 0; 
+    font-size: 14px;
   }
 
   .disclaimer {
-    display: block; 
+    display: block;
   }
 }
 
 @media screen and (max-width: 320px) {
   .aboutItem img {
-    display: none; 
+    display: none;
   }
 
   .aboutItem h3 {
-    font-size: 16px; 
+    font-size: 16px;
   }
 }

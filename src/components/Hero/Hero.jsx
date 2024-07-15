@@ -28,7 +28,6 @@ export const Hero = () => {
         src={getImageUrl("main/mohamedPhoto.png")}
         alt="Profile/LinkedIn image"
         className={styles.heroImg}
-        style={{ width: '500px', height: '500px', marginLeft: '20px' }}
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
