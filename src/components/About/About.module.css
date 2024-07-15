@@ -75,7 +75,7 @@
   text-align: center;
 }
 
-/* Styles for devices between 831px and 1300px */
+/* between 831px and 1300px */
 @media screen and (min-width: 831px) and (max-width: 1300px) {
   .container {
     padding: 50px;
@@ -109,7 +109,7 @@
   }
 }
 
-/* Styles for devices smaller than 830px */
+/*  smaller than 830px */
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
@@ -144,7 +144,7 @@
   }
 }
 
-/* Styles for larger phones like iPhone Pro Max */
+/*  iPhone Pro Max */
 @media screen and (min-width: 430px) and (max-width: 830px) {
   .container {
     padding: 40px;
@@ -196,20 +196,20 @@
   }
 
   .aboutItem p {
-    font-size: 0; /* Hide the description text */
+    font-size: 0; 
   }
 
   .disclaimer {
-    display: block; /* Show the disclaimer on small screens */
+    display: block; 
   }
 }
 
 @media screen and (max-width: 320px) {
   .aboutItem img {
-    display: none; /* Hide the images */
+    display: none; 
   }
 
   .aboutItem h3 {
-    font-size: 16px; /* Adjust title size if necessary */
+    font-size: 16px; 
   }
 }

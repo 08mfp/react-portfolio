@@ -79,7 +79,6 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -93,7 +92,6 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
@@ -102,12 +100,163 @@
   z-index: 0;
 }
 
-@media screen and (max-width: 830px) {
+/* between 831px and 1200px */
+@media screen and (min-width: 831px) and (max-width: 1200px) {
   .container {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    align-items: center;
   }
 
   .content {
     align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 15px 20px;
+  }
+
+  .heroImg {
+    width: 60%;
+  }
+}
+
+/* Styles for devices smaller than 830px */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .contactBtn {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+
+  .heroImg {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+
+/* devices smaller than 1200px */
+@media screen and (max-width: 1199px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 15px 20px;
+  }
+
+  .heroImg {
+    width: 50%;
+  }
+
+  .navbar-menu {
+    display: block; 
+  }
+
+  .navbar-links {
+    display: none; 
+  }
+}
+
+/*  iPhone Pro Max */
+@media screen and (min-width: 430px) and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .contactBtn {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  .heroImg {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+/* smaller phones */
+@media screen and (max-width: 429px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .contactBtn {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .heroImg {
+    width: 60%;
+    margin-left: 0;
   }
 }
