@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,13 +7,13 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className={styles.image}
-      />
+      <div className={styles.image}>
+        <img
+          src={getImageUrl(imageSrc)}
+          alt={`Image of ${title}`}
+        />
+      </div>
       <h3 className={styles.title}>{title}</h3>
-      <br/>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
@@ -33,6 +32,7 @@ export const ProjectCard = ({
           Source
         </a>
       </div>
+      <p className={styles.disclaimer}>*Demo and Source Code available on Desktop Browsers</p>
     </div>
   );
 };
