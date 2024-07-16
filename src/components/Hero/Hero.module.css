@@ -53,9 +53,9 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
-
+  margin-left: 40px;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -103,13 +103,13 @@
 /* between 831px and 1200px */
 @media screen and (min-width: 831px) and (max-width: 1200px) {
   .container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .content {
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .title {
@@ -126,7 +126,8 @@
   }
 
   .heroImg {
-    width: 60%;
+    width: 50%;
+    margin-left: 20px;
   }
 }
 
@@ -158,48 +159,11 @@
   .heroImg {
     width: 80%;
     margin-left: 0;
+    margin-bottom: 20px;
   }
 }
 
-/* devices smaller than 1200px */
-@media screen and (max-width: 1199px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .content {
-    align-items: center;
-  }
-
-  .title {
-    font-size: 48px;
-  }
-
-  .description {
-    font-size: 24px;
-  }
-
-  .contactBtn {
-    font-size: 24px;
-    padding: 15px 20px;
-  }
-
-  .heroImg {
-    width: 50%;
-  }
-
-  .navbar-menu {
-    display: block; 
-  }
-
-  .navbar-links {
-    display: none; 
-  }
-}
-
-/*  iPhone Pro Max */
+/* iPhone Pro Max */
 @media screen and (min-width: 430px) and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -227,6 +191,7 @@
   .heroImg {
     width: 70%;
     margin-left: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -258,5 +223,6 @@
   .heroImg {
     width: 60%;
     margin-left: 0;
+    margin-bottom: 20px;
   }
 }

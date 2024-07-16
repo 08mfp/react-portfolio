@@ -12,52 +12,54 @@ export const About = () => {
           src={getImageUrl("about/aboutme.png")}
           alt="avatar question mark"
           className={styles.aboutImage}
-          style={{ width: '500px', height: '500px', marginRight: '50px' }} 
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img 
-              src={getImageUrl("about/universityManchester.png")} 
-              alt="University of Manchester" 
-              style={{ width: '175px', height: '75px', marginRight: '20px' }} 
+            <img
+              src={getImageUrl("about/universityManchester.png")}
+              alt="University of Manchester"
+              className={styles.aboutItemImage}
             />
             <div className={styles.aboutItemText}>
-              <h3>The University of Manchester [2021 - 2025]:</h3>
+              <h3>The University of Manchester:</h3>
+              <br/>
               <p>
-                BSc. Computer Science (Hons)
+                BSc. Computer Science (Hons).
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img 
-              src={getImageUrl("about/metaLogo.png")} 
+            <img
+              src={getImageUrl("about/metaLogo.png")}
               alt="Meta Front-End Developer Professional Certification"
-              style={{ width: '175px', height: '40px', marginRight: '20px' }}
+              className={styles.aboutItemImage}
             />
             <div className={styles.aboutItemText}>
               <h3>Meta Front-End Developer Professional Certification:</h3>
+              <br/>
               <p>
-                Courses: React, UI/UX Design, JavaScript, HTML, CSS, Version Control and Front-End Development. (under progress)
+                Classes in React, Advanced React, JavaScript, UI/UX Design, HTML, CSS, Version Control and Front-End Development.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img 
-              src={getImageUrl("about/islZambia2.png")} 
+            <img
+              src={getImageUrl("about/islZambia2.png")}
               alt="The International School of Lusaka"
-              style={{ width: '175px', height: '75px', marginRight: '20px' }} 
+              className={styles.aboutItemImage}
             />
             <div className={styles.aboutItemText}>
               <h3>The International School of Lusaka:</h3>
+              <br/>
               <p>
                 International Baccalaureate Diploma Program
-                36 (incl. A* in Maths & A in Comp Sci)
+                36 (incl. A* in Maths & A in Comp Sci).
               </p>
             </div>
           </li>
         </ul>
       </div>
-      <p className={styles.disclaimer}>*More information available when viewed on desktop.</p>
+      {/* <p className={styles.disclaimer}>*More information available when viewed on desktop.</p> */}
     </section>
   );
 };
